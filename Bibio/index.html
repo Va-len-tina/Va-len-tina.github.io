@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bibio</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_content">
+            <div class="container">
+                <div class="header_content_inner">
+                    <div class="header_logo">
+                        <a href="#">
+                            <img src="./img/Logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="header_desinfection">
+                        <a class="header_desinfection_inner" href="#services">Дезинфекция, дезинсекция,<br>
+                            дератизация для юридических лиц</a>
+                    </div>
+                    <nav class="header_menu">
+                        <ul>
+                            <li><a href="#consultation">Стоимость</a></li>
+                            <li><a href="#about">О компании</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header_contacts">
+                        <div class="header_phone_1">
+                            <a href="tel:+79213334000" class="header_phone">8 (921) 333-40-00</a>
+                            <a class="header_wa_1" title="Whatsapp" href="whatsapp://send?phone=79213334000"><img
+                                    src="./icons/wa.png" alt="Написать в Whatsapp"></a>
+                            <a title="Telegram" href="https://telegram.me/bibio_online" target="_blank"><img
+                                    src="./icons/tg.png" alt="Написать в Telegram"></a>
+
+                        </div>
+                        <div class="header_phone_2">
+                            <a href="tel:+78129920311" class="header_phone">8 (812) 992-03-11</a>
+                            <a class="header_wa_2" title="Whatsapp" href="whatsapp://send?phone=78129920311"><img
+                                    src="./icons/wa.png" alt="Написать в Whatsapp"></a>
+                            <a title="Telegram" href="https://telegram.me/bibio_online" target="_blank"><img
+                                    src="./icons/tg.png" alt="Написать в Telegram"></a>
+                        </div>
+                        <div class="header_email_inner">
+                            <!--  <img src="./icons/email.png" alt="email"> -->
+                            <a href="mailto:info@bibio.online" class="header_email">info@bibio.online</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee_inner">
+                <div class="guarantee_text">
+                    <h1>Гарантированное <span>уничтожение</span></h1>
+                    <img class="guarantee_img" src="./img/rectangle.png" alt="#">
+                    <!-- <p>уничтожение</p> -->
+                </div>
+                <div class="guarantee_text_2">
+                    <p>всех видов вредителей,
+                        вирусов и грибков</p>
+                </div>
+                <div class="guarantee_ul">
+                    <ul>
+                        <li>Работаем с организациями любых видов деятельности</li>
+                        <li>Аттестованные специалисты</li>
+                        <li>Круглосуточное обслуживание клиентов</li>
+                        <li>Безналичный расчет</li>
+                    </ul>
+                </div>
+                <!-- <a data-fancybox data-src="#modal" href="javascript:;" class="guarantee_button" href="#">ЗАКАЗАТЬ</a> -->
+                <button class="guarantee_button">ЗАКАЗАТЬ</button>
+            </div>
+            <div id="services" class="services_inner">
+                <div class="disinfection">
+                    <a href="#openModal">
+                        <div class="disinfection_item">
+                            <img src="./icons/disinfection.png" alt="disinfection">
+                            <h3>дезинфекция</h3>
+                            <p>Профессиональная дезинфекция помещений!</p>
+                            <button class="disinfection_item_btn">Обработка от COVID-19</button>
+                        </div>
+                    </a>
+                </div>
+                <!-- <div id="openModal" class="modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title">Дезинфекция помещений</h3>
+                                <a href="#close" title="Close" class="close">×</a>
+                            </div>
+                            <div class="modal-body">
+                                <p>Мы производим дезинфекцию высокотехнологичным оборудованием, используем
+                                    сертифицированные препараты безопасные для людей. Окончательный рассчет стоимости
+                                    зависит от приминяемых препаратов, площади помещения и вида обработки.
+                                </p>
+                                <button>ДЛЯ ЮРИДИЧЕСКИХ ЛИЦ</button>
+                                <button>ДЛЯ ФИЗИЧЕСКИХ ЛИЦ</button>
+                                <table class="modal_disinfection">
+                                    <tr>
+                                        <th>Площадь м2</th>
+                                        <th>Цена, руб.</th>
+                                    </tr>
+                                    <tr>
+                                        <td>до 100</td>
+                                        <td>3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>от 100 до 300</td>
+                                        <td>от 3000 до 45000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>от 301 до 500</td>
+                                        <td>от 4500 до 6000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>от 501 до 1000</td>
+                                        <td>от 6000 до 9000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>свыше 1000</td>
+                                        <td>договорная</td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="d_2">
+                    <div class="disinsection">
+                        <a href="#openModal_disinsection">
+                            <div class="disinsection_item">
+                                <img src="./icons/disinsection.png" alt="disinsection">
+                                <h3>Дезинсекция</h3>
+                                <p>Обработка помещений от всех видов насекомых. Договор на обслуживание.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="openModal_disinsection" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title">ДЕЗИНСЕКЦИЯ</h3>
+                                    <a href="#close" title="Close" class="close">×</a>
+                                </div>
+                                <div class="modal-body_disinsection">
+                                    <p>Обработка происходит с применением различных преапаратов, включая комплексные
+                                        решения, в зависимости от резистентности
+                                        членистоногих. Окончательный расчет стоимости предоставляем после выезда
+                                        специалиста сервисной службы на объект и оценки
+                                        степени зараженности.</p>
+                                    <table>
+                                        <tr>
+                                            <th>Площадь объекта</th>
+                                            <th>Стоимость разовой дезинсекции</th>
+                                            <th>Стоимость ежеквартальной дезинсекции</th>
+                                            <th>Стоимость ежемесячной дезинсекции</th>
+                                        </tr>
+                                        <tr>
+                                            <td>до 100 м2</td>
+                                            <td>3500</td>
+                                            <td>3000</td>
+                                            <td>2500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 100 м2 до 300 м2</td>
+                                            <td>от 3500 до 5000</td>
+                                            <td>от 3000 до 4500</td>
+                                            <td>от 2500 до 3500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 301 м2 до 500 м2</td>
+                                            <td>от 5000 до 6500</td>
+                                            <td>от 4000 до 5500</td>
+                                            <td>от 3500 до 4500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 501 м2 до 1000 м2</td>
+                                            <td>от 6500 до 9000</td>
+                                            <td>от 5500 до 8000</td>
+                                            <td>от 4500 до 7000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>свыше 1000 м2</td>
+                                            <td>цена договорная</td>
+                                            <td>цена договорная</td>
+                                            <td>цена договорная</td>
+                                        </tr>
+                                    </table>
+                                    <div>
+                                        <a href="#btn_form"><button class="modal_btn">заказать
+                                                услугу</button></a>
+                                    </div>
+                                    <!-- <div id="btn_form">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h3 class="modal-title">заказ услуги</h3>
+                                                    <a href="#close" title="Close" class="close">×</a>
+                                                </div>
+                                                <div class="modal-body_disinsection">
+                                                    <p>Заполните</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deratization">
+                        <a href="#openModal_deratization">
+                            <div class="deratization_item">
+                                <img src="./icons/deratization.png" alt="deratization">
+                                <h3>Дератизация</h3>
+                                <p>Истребление грызунов в любых типах помещений и на любых территориях</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="openModal_deratization" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title">ДЕРАТИЗАЦИЯ</h3>
+                                    <a href="#close" title="Close" class="close">×</a>
+                                </div>
+                                <div class="modal-body_deratization">
+                                    <p>Особые условия для предприятий пищевого профиля!
+                                        Для управляющих компаний (ЖКХ, ТСЖ, Жилкомсервисы) – дератизация от 0,06 руб. за
+                                        1 м.кв.
+                                        Окончательная стоимость зависит от степени зараженности объекта и площади
+                                        обработки.</p>
+                                    <table>
+                                        <tr>
+                                            <th>Площадь объекта</th>
+                                            <th>Стоимость разовой дератизации</th>
+                                            <th>Стоимость ежеквартальной дератизации</th>
+                                            <th>Стоимость ежемесячной дератизации</th>
+                                        </tr>
+                                        <tr>
+                                            <td>до 100 м2</td>
+                                            <td>от 500 до 2000</td>
+                                            <td>от 500 до 1500</td>
+                                            <td>от 500 до 1400</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 100 м2 до 300 м2</td>
+                                            <td>от 500 до 2500</td>
+                                            <td>от 500 до 2200</td>
+                                            <td>от 500 до 2000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 301 м2 до 500 м2</td>
+                                            <td>от 500 до 2900</td>
+                                            <td>от 500 до 2500</td>
+                                            <td>от 500 до 2200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 501 м2 до 1000 м2</td>
+                                            <td>от 500 до 3500</td>
+                                            <td>от 500 до 3000</td>
+                                            <td>от 500 до 2700</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 1001 м2 до 3000 м2</td>
+                                            <td>от 900 до 5000</td>
+                                            <td>от 800 до 4000</td>
+                                            <td>от 700 до 3500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 3001 м2 до 5000 м2</td>
+                                            <td>от 900 до 7000</td>
+                                            <td>от 800 до 5000</td>
+                                            <td>от 700 до 4000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>свыше 5000 м2</td>
+                                            <td>цена договорная</td>
+                                            <td>цена договорная</td>
+                                            <td>цена договорная</td>
+                                        </tr>
+                                    </table>
+                                    <div>
+                                        <a href="#btn_form"><button class="modal_btn">заказать
+                                                услугу</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d_3">
+                    <div class="herbicida">
+                        <a href="#openModal_herbicida">
+                            <div class="herbicida_item">
+                                <img src="./icons/herbicida.png" alt="herbicida">
+                                <h3>ГЕРБИЦИДНАЯ ОБРАБОТКА</h3>
+                                <p>Уничтожение сорняков и отдельных видов растений на сельскохозяйственных угодьях
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="openModal_herbicida" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title">ГЕРБИЦИОДНАЯ ОБРАБОТКА ОТ СОРНЯКОВ</h3>
+                                    <a href="#close" title="Close" class="close">×</a>
+                                </div>
+                                <div class="modal-body_herbicida">
+                                    <p>Подразумевает под собой уничтожение нежелательной растительности. Производится с
+                                        помощью распыления химических
+                                        препаратов (гербицидов) для полного или конкретно выбранного участков с
+                                        «растением-вредителем».
+                                        В большинстве случаев данный метод применяют: на сельскохозяйственных угодьях,
+                                        на дачных участках, в парках, скверах; на
+                                        стадионах, спортивных площадках;</p>
+                                    <table>
+                                        <caption>Прайс на гербицидную обработку</caption>
+                                        <tr>
+                                            <th>Площадь обработки</th>
+                                            <th>Цена, руб.</th>
+                                        </tr>
+                                        <tr>
+                                            <td>до 10 суток</td>
+                                            <td>300</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 10 до 20 соток</td>
+                                            <td>250 руб. сотка</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>от 20 до 50 соток</td>
+                                            <td>230 руб. сотка</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 50 соток до 1 Га</td>
+                                            <td>210 руб. сотка</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 1 Га до 5 Га</td>
+                                            <td>20000 руб. Га</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 5 Га до 10 Га</td>
+                                            <td>17500 руб. Га</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 10 Га до 20 Га</td>
+                                            <td>15000 руб. Га</td>
+                                        </tr>
+                                        <tr>
+                                            <td>свыше 20 Га</td>
+                                            <td>Договорная</td>
+                                        </tr>
+                                    </table>
+                                    <div>
+                                        <a href="#btn_form"><button class="modal_btn">заказать
+                                                услугу</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="individuals">
+                        <a href="#openModal_individuals">
+                            <div class="individuals_item">
+                                <p>Услуги для<br>
+                                    физических лиц</p>
+                                <img src="./icons/individ.png" alt="individuals">
+                            </div>
+                        </a>
+                    </div>
+                    <div id="openModal_individuals" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title">ДЛЯ ФИЗИЧЕСКИХ ЛИЦ</h3>
+                                    <a href="#close" title="Close" class="close">×</a>
+                                </div>
+                                <div class="modal-body_individuals">
+                                    <p class="individ_title">ДЕЗИНФЕКЦИЯ</p>
+                                    <p>Стоимость услуги уточняйте у наших специалистов.</p>
+                                    <p class="individ_title">ДЕРАТИЗАЦИЯ</p>
+                                    <p>Стоимость услуги уточняйте у наших специалистов.</p>
+                                    <p class="individ_title">ДЕЗИНСЕКЦИЯ</p>
+                                    <p>Точную стоимость услуги уточняйте у наших специалистов.</p>
+                                    <table>
+                                        <tr>
+                                            <th>Для физических лиц (квартиры)</th>
+                                            <th>Цена, руб.</th>
+                                        </tr>
+                                        <tr>
+                                            <td>до 30 м2</td>
+                                            <td>2500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>31-50 м2</td>
+                                            <td>3000</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>51-70 м2</td>
+                                            <td>3500</td>
+                                        </tr>
+                                        <tr>
+                                            <td>71-100 м2</td>
+                                            <td>4000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 100 м2</td>
+                                            <td>5000</td>
+                                        </tr>
+                                    </table>
+                                    <div>
+                                        <a href="#btn_form"><button class="modal_btn">заказать
+                                                услугу</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <div class="container">
+            <div class="video_wrapper">
+                <div class="video_inner">
+                    <p class="video_text_1">ВЫ <br>
+                        не знаете <span>как выбрать</span> компанию ?</p>
+                    <p class="video_text_2"><span>смотрите</span> это видео</p>
+                </div>
+                <div class="video_film">
+                    <video controls width="715" height="511" poster="./img/video_img.png" preload="none">
+                        <source src="./img/final.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video_info">Небольшое видео о том, как мы работаем ...</div>
+                <img class="video_img" src="./img/video.png" alt="#">
+            </div>
+        </div>
+    </section>
+    <section id="consultation" class="consultation">
+        <div class="container">
+            <div class="consultation_inner">
+                <div class="consultation_item">
+                    <div class="consultation_text">
+                        <p>консультация эксперта</p>
+                    </div>
+                    <div class="consultation_ul">
+                        <ul>
+                            <li>Перезвоним Вам в течение 5 минут и дадим полную консультацию</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="consultation_form">
+                    <form action="formdata" method="post" name="consultation">
+
+                        <div class='vendosoft-form-line'>
+                            <!--   <span class='vendosoft-form-label'>Тип помещения</span> -->
+                            <select class='vendosoft-form-select' name='Тип помещения'>
+                                <option value='text'>Тип помещения</option>
+                                <option required="true" value='text'>Квартира</option>
+                                <option required="true" value='text'>Офис</option>
+                                <option required="true" value='text'>Складское</option>
+                            </select>
+                        </div>
+                        <div class='vendosoft-form-line'>
+                            <!--   <span class='vendosoft-form-label'>Тип помещения</span> -->
+                            <select class='vendosoft-form-select' name='Вид обработки'>
+                                <option value='text'>Вид обработки</option>
+                                <option required="true" value='text'>Дезинфекция</option>
+                                <option required="true" value='text'>Дезинсекция</option>
+                                <option required="true" value='text'>Дератизация</option>
+                                <option required="true" value='text'>Гербицидная обработка</option>
+                            </select>
+                        </div>
+                        <div class="squire">
+                            <input type="text" name="" required="true">
+                            <label>Площадь обработки</label>
+                        </div>
+                        <div class="tel">
+
+                            <input class="consultant_input" name="" required="true" placeholder=" Номер телефона">
+                        </div>
+                        <p>Нажимая на кнопку “Оставить заявку”, Вы даете согласие на обработку Ваших персональных данных
+                        </p>
+                        <input class="submit" type="Submit" name="" value="Оставить заявку">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages_title">наши преимущества</div>
+            <div class="advantages_wrapper">
+                <div class="advantages_1">
+                    <img src="./img/advantages_1.png" alt="advantages" width="100%">
+                    <div class="advantages_text">
+                        <p><span>01.</span> Строгое соблюдение норм и требований СанПин с выдачей всех необходимых
+                            документов и актов</p>
+                    </div>
+                </div>
+                <div class="advantages_2">
+                    <img src="./img/advantages_2.png" alt="advantages" width="100%">
+                    <div class="advantages_text">
+                        <p><span>02.</span> Осуществляем свою деятельность на основании медицинской лицензии по
+                            дезинфектологии</p>
+                    </div>
+                </div>
+                <div class="advantages_3">
+                    <img src="./img/advantages_3.png" alt="advantages" width="100%">
+                    <div class="advantages_text">
+                        <p><span>03.</span> Официальный договор и гарантия на все виды работ</p>
+                    </div>
+                </div>
+                <div class="advantages_4">
+                    <img src="./img/advantages_4.png" alt="advantages" width="100%">
+                    <div class="advantages_text">
+                        <p><span>04.</span> Все специалисты имеют профессиональную аттестацию.</p>
+                    </div>
+                </div>
+                <div class="advantages_5">
+                    <img src="./img/advantages_5.png" alt="advantages" width="100%">
+                    <div class="advantages_text">
+                        <p><span>05.</span> Используются только сертифицированные препараты, безопасные для здоровья
+                            человека</p>
+                    </div>
+                </div>
+                <div class="advantages_6">
+                    <img src="./img/advantages_6.png" alt="advantages">
+                    <div class="advantages_text">
+                        <p><span>06.</span> При работе используется современное инновационное оборудование</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="about_wrapper">
+            <div class="about_img">
+                <div class="about_img_1">
+                    <img class="about_img_top" src="./img/about_top.png" alt="about">
+                    <img class="about_img_left" src="./img/about_left.png" alt="about">
+
+                </div>
+                <div class="about_img_2">
+                    <img src="./img/about_right.png" alt="about">
+                    <img src="./img/about_down.png" alt="about">
+
+                </div>
+            </div>
+            <div class="about_text">
+                <h2>О компании</h2>
+                <p class="about_text_1">Слоган компании <span>"Мы делаем мир чище".</span><br>
+                    Все виды нашей деятельности
+                    нацелены на улучшение качества жизни как наших
+                    клиентов, так и окружающей среды в целом.
+                </p>
+                <p class="about_text_2">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                    несколько абзацев более
+                    менее осмысленного
+                    текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних
+                    условиях. При
+                    создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется
+                    абзацами случайным
+                    образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и
+                    живым для
+                    визуально-слухового восприятия.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="partners">
+        <div class="container">
+            <div class="partners_title">наши партнеры</div>
+            <div class="partners_wrapper">
+                <a href="#"><img src="./img/partners_1.png" alt=""></a>
+                <a href="#"><img src="./img/partners_2.png" alt=""></a>
+                <a href="#"><img src="./img/partners_3.png" alt=""></a>
+                <a href="#"><img src="./img/partners_4.png" alt=""></a>
+                <a href="#"><img src="./img/partners_5.png" alt=""></a>
+                <a href="#"><img src="./img/partners_6.png" alt=""></a>
+                <a href="#"><img src="./img/partners_7.png" alt=""></a>
+                <a href="#"><img src="./img/partners_8.png" alt=""></a>
+                <a href="#"><img src="./img/partners_9.png" alt=""></a>
+                <a href="#"><img src="./img/partners_10.png" alt=""></a>
+                <a href="#"><img src="./img/partners_11.png" alt=""></a>
+                <a href="#"><img src="./img/partners_12.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <section id="contacts" class="contacts">
+        <div class="contacts_wrapper">
+            <div class="map">
+                <iframe
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Aae2e5f16292ec1617663131512820efe0ba8fc74e466d12001db9bc3074e7257&amp;source=constructor"
+                    width="1101" height="689" frameborder="0">
+                </iframe>
+            </div>
+            <div class="contacts_info">
+                <div class="contacts_title">
+                    контакты
+                </div>
+                <div class="contacts_tel">
+                    <p>Связаться с нами:</p>
+                    <a href="tel:+79213334000" class="contacts_phone">8 (921) 333-40-00</a>
+                    <a href="tel:+78129920311" class="contacts_phone">8 (812) 992-03-11</a>
+                    <a href="mailto:info@bibio.online" class="contacts_email">info@bibio.online</a>
+                </div>
+                <div class="contacts_address">
+                    <p>Адрес:</p>
+                    г. Кудрово, мкр-н Новый Оккервиль, ул. Областная, д. 2 строение 2, пом. 7.
+                </div>
+                <button class="contacts_button">написать руководству</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_info">
+            <div class="container">
+                <div class="footer_wrapper">
+                    <div class="footer_logo">
+                        <img src="./img/footer_logo.png" alt="">
+                    </div>
+                    <div class="footer_copy">
+                        &copy 2021 Bibio. Все права защищены.
+                    </div>
+                    <div class="footer_inn">
+                        ООО "Бибио" ИНН 4703181407
+                    </div>
+                    <div class="footer_personal">
+                        <a href="" data-fancybox="" data-src="#policy-popup">Условия обработки персональных данных</a>
+                    </div>
+                    <div class="policy-popup popup" id="policy-popup" style="display: none;">
+                        <p>Политика конфиденциальности</p>
+                        <p>Данное соглашение об обработке персональных данных разработано в соответствии с
+                            законодательством Российской
+                            Федерации.</p>
+                        <p>Все лица, заполнившие сведения, составляющие персональные данные на данном сайте, а также
+                            разместившие иную
+                            информацию обозначенными действиями подтверждают свое согласие на обработку персональных
+                            данных и их передачу
+                            оператору обработки персональных данных.</p>
+                        <p>Под персональными данными Гражданина понимается нижеуказанная информация: общая информация
+                            (имя и адрес
+                            электронной почты, телефон).</p>
+                        <p>Гражданин, принимая настоящее Соглашение, выражают свою заинтересованность и полное согласие,
+                            что обработка их
+                            персональных данных может включать в себя следующие действия: сбор, систематизацию,
+                            накопление, хранение,
+                            уточнение (обновление, изменение), использование, уничтожение.</p>
+                        <p>Гражданин гарантирует: информация, им предоставленная, является полной, точной и достоверной;
+                            при предоставлении
+                            информации не нарушается действующее законодательство Российской Федерации, законные права и
+                            интересы третьих
+                            лиц; вся предоставленная информация заполнена Гражданина в отношении себя лично.</p>
+                        <a href="" class="popup-custom-close" data-fancybox-close="">Закрыть</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer_next">
+            <div class="container">
+                <div class="footer_next_wrapper">
+                    <div class="footer_next_logo"><a href="https://lp.next-team.ru/" target="_blank"> <img
+                                src="./icons/next_team.png" alt="next_team"></a></div>
+                    <div class="footer_next_text">Упаковано Next-team в 2021 году</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
