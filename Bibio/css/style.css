@@ -6,7 +6,7 @@ html {
     font-family: 'Rubik', sans-serif;
 }
 .header {
-    background: url('/img/header_bg.png');
+    background: url('../img/header_bg.png');
     background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
