@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Rubik';
+  src:  url('../fonts/Rubik-Regular.ttf'),
+        url('../fonts/Rubik-Bold.ttf'),
+        url('../fonts/Rubik-Light.ttf'),
+        url('../fonts/Rubik-Medium.ttf'),
+        url('../fonts/Rubik-Black.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF UI Display';
+  src:  url('../fonts/SFUIDisplay-Regular.ttf'),
+        url('../fonts/SFUIDisplay-Regular.woff') format('woff'),
+        url('../fonts/SFUIDisplay-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
